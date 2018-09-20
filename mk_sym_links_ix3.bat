@@ -1,3 +1,4 @@
+REM Sets up an ix3 server symlinks which can be used without triggering repackagings 
 
 set ix3_home=D:\Development\ix3_servers\R8.2_OJ_SERVER\instance\Cosmic\
 set modules_folder=%ix3_home%\modules\se\cambio\referral\referral-jboss-module\main\
