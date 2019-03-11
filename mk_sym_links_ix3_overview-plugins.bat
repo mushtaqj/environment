@@ -41,5 +41,5 @@ mklink %modules_folder%\%module_name%-service-impl.jar %project_root%\service\im
 mklink %modules_folder%\%module_name%-service-spi.jar %project_root%\service\spi\target\%module_name%-service-spi.jar
 
 REM EJB
-del %cosmic_ejb_ear%\se.cambio.%module_name%-%module_name%-ejb-server.jar
-mklink %cosmic_ejb_ear%\se.cambio.%module_name%-%module_name%-ejb-server.jar %project_root%\ejb\server\target\%module_name%-ejb-server.jar
+del %cosmic_ejb_ear%\se.cambio.%module_parent%-%module_name%-ejb-server.jar
+mklink %cosmic_ejb_ear%\se.cambio.%module_parent%-%module_name%-ejb-server.jar %project_root%\ejb\server\target\%module_name%-ejb-server.jar
